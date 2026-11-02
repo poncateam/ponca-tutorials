@@ -1,0 +1,7 @@
+numpy
+scipy
+polyscope
+plyfile
+
+# Datasets loading
+ThreeDARD @ git+https://github.com/3D-ARD/python-module

@@ -1,0 +1,29 @@
+﻿---
+BasedOnStyle: Microsoft
+ColumnLimit: '120'
+TabWidth: '4'
+IndentWidth: '4'
+NamespaceIndentation: All
+AccessModifierOffset: -4
+InsertNewlineAtEOF: true
+MaxEmptyLinesToKeep: 1
+KeepEmptyLinesAtEOF: true
+KeepEmptyLines:
+  AtEndOfFile: true
+IndentRequiresClause: true
+RequiresClausePosition: 'OwnLine'
+AllowShortCompoundRequirementOnASingleLine: true
+# RequiresExpressionIndentation: 'OuterScope'
+AlignConsecutiveAssignments: true
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: All
+AlwaysBreakTemplateDeclarations: 'Yes'
+IncludeBlocks: Preserve
+IndentPPDirectives: AfterHash
+Language: Cpp
+PointerAlignment: Left
+SortIncludes: false
+SpaceAfterTemplateKeyword: true
+SpaceBeforeAssignmentOperators: true
+
+...
