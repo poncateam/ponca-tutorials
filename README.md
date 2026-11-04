@@ -56,15 +56,9 @@ pip install -r requirements.txt
 
 You may want to use a separate virtual environment, such as [venv](https://docs.python.org/3/library/venv.html) or [conda](https://anaconda.org).
 
-### Download data
+### Test Data
 
-To get started, we provide a few scanned point clouds from the 3D-ARD project. You can download them using the download_data.py script:
-
-```bash
-python scripts/download_data.py [optional_data_location]
-```
-
-By default, the files are saved in the `data/` folder. Note that this script does a little more than simply download the files: when normals are not provided in a file, it also tries to compute them, so that most methods can work with the data.
+To get you started with the tools and tutorial, we provide a few inputs point clouds within the `assets` folder. Feel free to try the methods and explore the results on theses !
 
 ### Viewing data
 
@@ -76,3 +70,5 @@ python scripts/viewer.py cloud ref.ply [computed_files...]
 # To display data as a mesh (falls back to a point cloud if no triangulation data is found) 
 python scripts/viewer.py mesh ref.ply [computed_files...]
 ```
+
+For interactive visualization of methods, you may also take a look at the [poncascope](https://github.com/poncateam/poncascope).
