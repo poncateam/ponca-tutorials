@@ -6,6 +6,11 @@
 #include <limits>
 #include <chrono>
 
+// TODO: Increment this on modification. 
+// The goal is to identify quickly if the files are the same and/or up to date, 
+// not to build conditionnal compilation on this 
+#define UTILS_VERSION 1
+
 // This is a nice idea from:
 // https://stackoverflow.com/questions/2808398/easily-measure-elapsed-time
 template <class result_t = std::chrono::milliseconds, class clock_t = std::chrono::steady_clock,
